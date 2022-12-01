@@ -1,0 +1,22 @@
+
+body{
+    background: #E7E4E4;
+    font-family:Inter;
+}
+
+/* position et format du container blanc */
+#white-box{
+height: 600px;
+}
+  
+
+/* position de submit*/
+input[type="submit"] {
+    top: 70px;
+}
+
+.g-recaptcha{
+    position: relative;
+    top:50px;
+    left: 60px;
+}

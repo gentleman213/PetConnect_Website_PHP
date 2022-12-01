@@ -1,0 +1,81 @@
+/* format et position du texte 'Quizz' */
+#quizz h1{
+    padding-top:100px ;
+
+    font-weight: 700;
+    font-size: 64px;
+}
+
+/* position et style des containeur gris */
+.greybox{
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 50%;
+    top: 60%;
+    display: block;
+    transform: translate(-50%, -50%);
+    top: 150px;
+    margin-top: 50px;
+    background: #D9D9D9;
+    border-radius: 65px;
+    box-shadow: 0px 30px 50px 0px rgba(171, 169, 169, 0.2);
+}
+
+.True{
+    margin-top: 120px;
+}
+
+#quizz p{
+    font-weight: 400;
+    font-size: 30px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+#quizz ul{
+    font-weight: 400;
+font-size: 24px;
+    list-style-type: none;
+
+}
+
+#quizz li{
+    padding-left: 45px;
+    padding-bottom: 20px;
+    float: none;
+}
+
+input[type="radio"]{
+    position: relative;
+    top: -3px;
+    right: 6px;
+}
+
+#bout{
+    position: relative;
+    width: 421px;
+    height: 79px;
+    top: 100px;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+    background: #D9D9D9;
+    border-radius: 15px;
+}
+
+#bout a{
+    position: relative;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+    padding: 30px;
+    top: 15px;
+}
+
+#bout:hover{
+    background-color: blueviolet;
+}

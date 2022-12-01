@@ -1,0 +1,10 @@
+
+
+TO DO:
+1. Envoie de mail pour modif mdp
+2. Co et sécu: modifier adresse, nom et mdp
+3. créer un compte admin
+4. insérer les utilisateur dans un espace admin
+
+DONE:
+intégrer le footer aux pages 

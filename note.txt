@@ -1,0 +1,14 @@
+<?php
+if(condition)
+{
+?>
+AFFICHER DU CODE HTML
+<?php
+}
+else
+{
+?>
+AFFICHER UN AUTRE CODE HTML
+<?php
+}
+?>

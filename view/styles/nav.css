@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;   
+    padding: 0;
+    margin: 0;
+}
+
+/*  barre de navigation */
+#nav {
+    list-style-type: none;
+    background: rgba(0, 0, 0, 0.81);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin :0 ;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+
+}
+
+#nav div{
+    margin-left: 350px;
+}
+
+#nav div li a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    padding: 25px 50px;
+
+}
+
+#nav div li a:hover {
+  
+    text-decoration: underline;
+}
+
+li {
+    float: left;
+}
+
+
+/* Profil */
+.login img{
+    position: fixed;
+    right : 90px;
+    top: 10px;
+    width: 2.7em;    
+}
+.login img:hover{
+    filter: invert(100%);
+}
+
+/*  Panier */
+.basket img{
+    position: fixed;
+    right : 20px;
+    top: 10px;
+    width: 2.7em;
+}
+.basket img:hover{
+    filter: invert(100%);
+}
+
+/* Logo */
+.logo img{
+    position: fixed;
+    margin-left: 2em;
+    margin-top: -0.15em;
+    width: 15em;
+}
+
+
+/* Sous-menu compte */
+.sous-menu{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background: #D9D9D9;
+    border-radius: 5px;
+    position: absolute;
+    width: 18%;
+    z-index: 1000;
+}
+header > ul li:hover .sous-menu{
+    display: block;
+    top: 60px;
+    right: 58px;
+}
+.sous-menu li{
+    padding: 10px;
+    float: none;
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(31, 31, 31, 0.6);
+    text-align: left;
+}
+
+ /* position et style du texte du sous menu */
+.sous-menu a{
+    color: rgba(31, 31, 31, 0.6);
+    border-bottom: none;
+    padding: 10px;
+    text-decoration: none;
+}
+ /* position et style du texte du sous menu lorsque l'on le pointe avec la souris */
+.user a:hover{
+    border-bottom: none;
+    padding: 20px;
+    color: black;
+}
+
+/* triangle vers le haut  une fois  le menu ouvert */
+.triangle{
+    text-decoration: none;
+    position: absolute;
+    transform: rotate(45deg);
+    top:3px;
+    right: 10px;
+    width  : 45px;
+    height : 45px;
+    background: #D9D9D9;
+    z-index: -1;
+  }
+
+/* triangle sur le logo profil */
+  .menu-deroulant > a::after{
+    position: absolute;
+    content:" ▼";
+    color: rgb(156, 162, 162);
+    right: 85px;
+    top: 40px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* espacement entre les textes séparés d'un trait */
+hr{
+    margin-top:20px;
+}
+
+
+
+
+/* Sous-menu basket */
+
+.recap{
+    width: 28%;
+    left: 69%;
+}
+
+
+.recap input[name="modify"]{
+    position: absolute;
+    top: 3.1em;
+    text-decoration-line: underline;
+    border: none;
+    right:30px;
+    background-color: #D9D9D9;
+    font-weight: 900;
+}
+.recap img{
+    width: 10%;
+    right: 20%;
+    top: 100px;
+}
+
+.recap img:hover{
+    filter: none;
+}
+
+.recap #info{
+    position: relative;
+    left: 40%;
+    top: -2em;
+}
+
+.recap #prix{
+    position: relative;
+    left: 80%;  
+    top: -6em;
+}
+
+.recap #pay a{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #918D8D;
+    width: 100%;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    border: none;
+    border-radius: 52px;
+}
+    
+#pay a:hover {
+    background: #1E45A9;
+
+}
+
+.recap hr{
+    position: relative;
+    width: 90%;
+    left: 6%;
+
+}

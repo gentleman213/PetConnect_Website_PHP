@@ -1,0 +1,98 @@
+
+
+
+
+img{
+    width: 2%;
+}
+
+#shop h1{
+    font-weight: 700;
+    font-size: 48px;
+    padding-left: 8em;
+    padding-top: 130px;
+    color: #69A6AA;
+
+}
+
+#shop h2{
+    font-weight: 700;
+    font-size: 40px;
+    font-weight: 400;
+    font-size: 48px;
+    color: #69A6AA;
+    padding-left: 8.2em;
+}
+
+#shop h3{
+    position: relative;
+    font-weight: 700;
+    font-size: 40px;
+    top: -1.2em;
+    margin-left: 21em;
+}
+
+.mainbox{
+    position: relative;
+border: 1px solid #494848;
+border-radius: 20px;
+width: 324px;
+height: 300px;
+left: 2em;
+top: -5.2em;
+}
+
+.mainbox img{
+    width: 20em;
+}
+
+.grid2{
+    margin-top: -20em;
+    padding-left: 400px;
+    padding-right: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+
+}
+
+.box{
+    width: 179px;
+    height: 59px;
+    border: 1px solid #BBBBBB;
+    border-radius: 20px;
+}
+
+input[id="buy"],[id="basket"]{
+    border: none;
+    width: 297px;
+    height: 62.18px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FFB800;
+    border-radius: 72px;
+}
+
+input[id="buy"]{
+    background: #FF5C5C;
+}
+
+input:hover{
+    filter:sepia(5)
+}
+
+#shop ul{
+    padding-left: 26.6em;
+    padding-top: 2em;
+}
+
+#shop li{
+    float: none;
+    font-weight: 400;
+    font-size: 24px;
+ 
+
+}

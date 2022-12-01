@@ -1,0 +1,124 @@
+
+ main{overflow-x: hidden;}
+
+/* Styles et position des textes 'Connécté en...' et 'Adresse de livraison'*/
+#group h3{
+    position: relative;
+    padding-top: 5em;
+    padding-left: 4em;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+/*styles et position du texte'Champ obligatoire'*/
+#group h4{
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    left: 6.4em;
+    top: 2em;
+
+}
+
+#user p{
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: #918D8D;
+    top: 6.2em;
+    left: 370px;
+}
+
+/* position des informations 'Prénom,Nom...'*/ 
+.info{
+    margin-left: 100px;
+    position: relative;
+}
+
+/*styles et position des informations 'Prénom,Nom...'*/
+.info p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 60px;
+    color: #918D8D;
+}
+
+/*styles et position des entrées de texte */
+input[type="text"]{
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid (31, 31, 31, 0.48);
+    color: black;
+}
+
+/*styles et position du bouton enregistrer */
+input[id="save"]{
+    position: relative;
+    border: none;
+    background-color: #918D8D;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    width: 500px;
+    height: 72px;
+    border-radius: 52px;
+    left: 4.5em;
+    top: 3em;
+}
+input[type="submit"]:hover {
+    background: #1E45A9;
+  }
+
+/* longueur du trait*/
+#Prénom, #nom, #postal{
+    width: 172px;
+}
+/* longueur du trait*/
+#phone,#ville{
+    width: 245px;
+}
+/* longueur du trait*/
+#rue{
+    width: 320px;
+}
+
+/* position*/
+#name{
+    position: absolute;
+    top: -3.75em;
+    left: 20em;
+}
+/* position*/
+#town{
+    position: absolute;
+    left: 20em;
+    top: -4em;
+}
+
+
+
+/* Changements de position lorsque la fenetre est supérieur à 1230px */
+@media screen and (min-width: 1230px){
+ 
+
+    .enregistre #adress{
+        position: relative;
+        left: 39em;
+        top: -26.5em;
+    }    
+    .enregistre #town{
+        top: -3.75em;
+    }
+    .enregistre #enregistrer{
+        position: relative;
+        top: -26.5em;
+
+    }
+}

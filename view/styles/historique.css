@@ -1,0 +1,48 @@
+
+
+#historique h2{
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 160px;
+    padding-left: 93px;
+}
+
+
+#historique img{
+    position: relative;
+    width: 14em;
+    top:-3em;
+}
+
+#commande{
+    position: relative;
+    margin: 6em;
+}
+hr{
+    margin: 0.4em;
+}
+
+#commande h4{
+    position: relative;
+    left: 17em;
+    top: -10em;
+}
+
+.droite p{
+    position: relative;
+    left: 60%;
+    top: -16em;
+    padding: 18px;
+}
+
+.droite p strong{
+    position: relative;
+    left: 5%;
+
+
+}
+
+#fin{
+    position: relative;
+    top: -15em;
+}

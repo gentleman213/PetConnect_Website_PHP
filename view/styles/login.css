@@ -1,0 +1,113 @@
+
+body{
+    background: #E7E4E4;
+    font-family:Inter;
+}
+
+/* position et format du container blanc */
+#white-box{
+  position: absolute;
+  width: 420px;
+  height: 440.03px;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  text-align: center;
+  border-radius: 54px;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+  
+/* format de mdp + email + submit */
+input{
+  display: block;
+  width: 70%;
+  outline: none;
+  height: 60px;
+  border-radius: 12px;
+  top: 50px;
+}
+  
+/* format de utilisateur + mdp + email */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 80%;
+  padding: 0 0 0 10px;
+  margin: 15px;
+  color: #8a8b8e;
+  border: 1px solid rgba(0, 0, 0, 0.2);;
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+}
+
+/* texte invalide pour utilisateur + mdp + email */
+input[type="text"]:focus:invalid,
+input[type="password"]:focus:invalid,
+input[type="email"]:focus:invalid {
+  color: #cc1e2b;
+  border-color: #cc1e2b;
+}
+  
+/* format de submit*/
+input[type="submit"] {
+  border: none;
+  background-color: #918D8D;
+  color: #fff;
+  top: 90px;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  border-radius: 52px;
+}
+input[type="submit"]:hover {
+  background: #1E45A9;
+}
+
+/* position et format de 'mdp oublié'*/
+#forgotmdp a{
+  position: relative;
+  left: -80px;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+  top: -10px;
+}
+
+/* trait qui sépare 2 éléments */
+div.bordure {
+  border-bottom:1px solid black;
+  position: relative;
+  top: 100px;
+  width: 80%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+/* lien vers la page créer un */
+#create-account a{
+  position:relative;
+  color: #000000;
+  top:120px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+
+
+/* Erreurs de login  */
+.alert{
+  color: red;
+  position: absolute;
+
+  left: 12%;
+  top: 5%;
+}
+
+.alert-success{
+  color: rgb(45, 174, 45);
+}
